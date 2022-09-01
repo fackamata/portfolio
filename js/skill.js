@@ -1,4 +1,4 @@
-const skills = document.getElementById('skills');
+const skills = document.getElementById('skillsSection');
 
 (async () => {
     const res = await fetch('./skills.json', {
@@ -8,16 +8,18 @@ const skills = document.getElementById('skills');
     let skillArray = []
     Object.entries(json).forEach(([key, value]) => {
         skillArray.push(
-            {html : `<div id=${key} class="skill">
-                    <div>${value}</div>
-                    <p>${key}</p>
-                </div>`}
+            {
+                html : `<div id=${key} class="skill">
+                            <div>${value}</div>
+                            <p>${key}</p>
+                        </div>`
+            }
         )
         
     
     });
     skillArray.forEach(function(skill){
-        console.log(skill.html)
+        // console.log(skill.html)
         skills.innerHTML += skill.html
     })
   })();

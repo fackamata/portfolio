@@ -3,10 +3,11 @@
     "navbar":{
         "about":"à propos",
         "skills":"compétences",
-        "project":"projet",
+        "project":"projets",
         "contact":"contact"
     },
     "main":{
+        "name" : "Marlène LIZZI",
         "welcome" : "J'ai récemment achevé ma formation WebForce3 à Annemasse. J'adore apprendre au quotidien et sortir de ma zone de comfort.",
         "title" : "Développeuse web",
         "project" : "projet",

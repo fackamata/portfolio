@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/aeb3e6b307.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Portfolio - Lizzi M</title>
 </head>
 <body>
-    <a href="#" onclick="setLanguage('en')">English</a> 
-<a href="#" onclick="setLanguage('fr')">Français</a>
-<nav>
-    <ul>
-        <li id="nav_about"></li>
-        <li id="nav_skills"></li>
-        <li id="nav_project"></li>
-        <li id="nav_contact"></li>
-    </ul>
-</nav>
+    <header>
+        <nav>
+            <ul>
+                <li id="about"></li>
+                <li id="skills"></li>
+                <li id="project"></li>
+                <li id="contact"></li>
+            </ul>
+            
+            <img src="./img/Flag_of_France.png" onclick="setLanguage('fr')" alt="Fr" class="flag">
+            <img src="./img/Flag_of_the_United_Kingdom.png" onclick="setLanguage('en')" alt="En" class="flag">
+        </nav>
+    </header>
+    <!-- <button onclick="setLanguage('en')">En</button> 
+    <button onclick="setLanguage('fr')">Fr</button> -->
 <main>
-    <section id="about">
+    <section id="aboutSection">
         <img src="https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8" alt="computer image">
         <div id="info">
             <h1 id="name"></h1>
@@ -29,18 +34,22 @@
             <button id="downloadCV"></button>
         </div>
     </section>
-    <section id="skills">
+    <section id="skillsSection">
 
     </section>
-    <section id="project"></section>
+    <section id="projectSection"></section>
     <section id="contact">
         <p id="farewell"></p>
         <p id="email"></p>
         <p id="number"></p>
     </section>
-    <footer></footer>
+    <footer id="contactSection">
+        <p id="farewell"></p>
+        <p id="email"></p>
+        <p id="number"></p>
+    </footer>
 </main>
 </body>
-<script src="./app.js"></script>
-<script src="./skill.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/app.js"></script>
 </html>
