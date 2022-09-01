@@ -1,0 +1,19 @@
+{
+    "navbar":{
+        "about":"about",
+        "skills":"skills",
+        "project":"project",
+        "contact":"contact"
+    },
+    "main":{
+        "welcome" : "I recently graduated from WebForce3 Annemasse - an 11 months training. I am all for learning new things and getting out of my comfort zone.",
+        "title" : "Web developer",
+        "project" : "project",
+        "downloadCV": "Downloag resume"            
+    },
+    "footer":{
+        "farewell":"I am actively looking for opportunities to work and continue to grow as a web developer. Get in touch and let's see what we can do together !",
+        "email":"marlene.lizzi@gmail.com",
+        "number":"+33 695 76 16 84"
+    }
+}

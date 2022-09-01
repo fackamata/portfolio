@@ -1,0 +1,14 @@
+{
+    "laravel": "<i class='fab fa-laravel'></i>",
+    "php": "<i class='fab fa-php'></i>",
+    "linux": "<i class='fab fa-linux'></i>",
+    "javascript": "<i class='fab fa-js'></i>",
+    "jquery": "<i class='fa fa-dollar-sign'></i>",
+    "git": "<i class='fab fa-git'></i>",
+    "mysql": "<i class='fa fa-database'></i>",
+    "github": "<i class='fab fa-github'></i>",
+    "python": "<i class='fab fa-python'></i>",
+    "symfony": "<i class='fab fa-symfony'></i>",
+    "html": "<i class='fab fa-html5'></i>",
+    "jekyll": "<i class='fa fa-vial'></i>"
+}
