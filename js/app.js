@@ -1,5 +1,5 @@
 function setLanguage(param) {
-    fetch(`./languages/${param}.json`, {
+    fetch(`../json/languages/${param}.json`, {
        headers : { 
          'Content-Type': 'application/json',
          'Accept': 'application/json'

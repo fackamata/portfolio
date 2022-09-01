@@ -4,18 +4,39 @@ nav {
   right: 0;
   left: 0;
   z-index: 1030;
+  display: flex;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
 }
 nav ul li {
   all: unset;
   cursor: pointer;
 }
+nav img {
+  height: 20px;
+  width: 30px;
+  margin-right: 10px;
+}
 
 section {
-  padding-top: 30px;
+  padding-top: 10vh;
   height: 100vh;
 }
 
+footer {
+  padding-top: 10vh;
+  height: 100vh;
+}
+
+#skillsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  grid-gap: 10px;
+}
+
 img {
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 300px;
+  max-height: 300px;
 }/*# sourceMappingURL=style.css.map */
