@@ -1,15 +1,14 @@
 {
     "navbar":{
-        "about":"about",
-        "skills":"skills",
-        "project":"projects",
-        "contact":"contact"
+        "about":"About",
+        "skills":"Skills",
+        "projectNav":"Projects",
+        "contact":"Contact"
     },
     "main":{
         "name" : "Marlène LIZZI",
         "title" : "Web developer",
         "welcome" : "I recently graduated from WebForce3 Annemasse - 11 months training. I am all for learning new things and getting out of my comfort zone.",
-        "project" : "project",
         "downloadCV": "Downloag resume"            
     },
     "footer":{
