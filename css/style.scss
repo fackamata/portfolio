@@ -1,3 +1,7 @@
+
+$primaryColor :red;
+$secondColor: #283A55;
+
 nav{
     position: fixed;
     top: 0;
@@ -44,4 +48,22 @@ footer{
 img{
     max-width: 300px;
     max-height: 300px;
+}
+
+
+#topBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9999;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: $secondColor;
+    color: $primaryColor;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 40%;
+    transform: rotate(-90deg);
 }
