@@ -1,6 +1,7 @@
 
-$primaryColor :red;
-$secondColor: #283A55;
+$primaryColor :#D8DDE9;
+$secondColor: #2b3b53;
+$backgroundColotr :  #1F2D42;
 
 nav{
     position: fixed;
@@ -9,12 +10,17 @@ nav{
     left: 0;
     z-index: 1030;
     display: flex;
+    background-color: $backgroundColotr;
     ul{
         display: flex;
         flex-direction: column;
         li{
-            all: unset;
             cursor: pointer;
+            all: unset;
+            a{
+                all: unset;
+                color: $primaryColor;
+            }
         }
     }
 
@@ -23,6 +29,11 @@ nav{
         width: 30px;
         margin-right: 10px;
     }
+}
+
+body{
+    background-color: $secondColor;
+    color: $primaryColor;
 }
 
 section{

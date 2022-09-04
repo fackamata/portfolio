@@ -5,19 +5,29 @@ nav {
   left: 0;
   z-index: 1030;
   display: flex;
+  background-color: #1F2D42;
 }
 nav ul {
   display: flex;
   flex-direction: column;
 }
 nav ul li {
-  all: unset;
   cursor: pointer;
+  all: unset;
+}
+nav ul li a {
+  all: unset;
+  color: #D8DDE9;
 }
 nav img {
   height: 20px;
   width: 30px;
   margin-right: 10px;
+}
+
+body {
+  background-color: #2b3b53;
+  color: #D8DDE9;
 }
 
 section {
@@ -54,8 +64,8 @@ img {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #283A55;
-  color: red;
+  background-color: #2b3b53;
+  color: #D8DDE9;
   cursor: pointer;
   padding: 10px 15px;
   border-radius: 40%;
