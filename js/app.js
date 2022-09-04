@@ -34,3 +34,16 @@ function populateFooter(footerContent){
  }
 
 setLanguage('fr');
+
+
+// burger button for navbar
+const burger = document.getElementById('burgerBtn');
+const navigationItem = document.querySelectorAll(".nav_item");
+
+burger.addEventListener('click', ()=>{
+    navigationItem.forEach(element => {
+        console.log('clicker')
+        element.classList.toggle("burger-clicked");
+        element.classList.toggle("burger-unclicked");
+    });
+});

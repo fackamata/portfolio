@@ -3,20 +3,30 @@ $primaryColor :#D8DDE9;
 $secondColor: #2b3b53;
 $backgroundColotr :  #1F2D42;
 
+// navbar
 nav{
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
+
     display: flex;
     background-color: $backgroundColotr;
+    height: fit-content;
+    min-height: 50px;
     ul{
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
+        :first-child{
+            margin-top: 20px;
+
+        }
         li{
             cursor: pointer;
             all: unset;
+            margin-left: 50px;
             a{
                 all: unset;
                 color: $primaryColor;
@@ -31,6 +41,36 @@ nav{
     }
 }
 
+
+#burgerBtn{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: $backgroundColotr;
+    border: none;
+    .menu-bar{
+      background-color: $primaryColor;
+      width: 25px;
+      height: 4px;
+      margin-bottom: 6px ;
+      border-radius: 20%;
+    }
+  }
+  
+.burger-clicked{
+display: block;
+}
+.burger-unclicked{
+display: none;
+}
+  
+#flags{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+// main
 body{
     background-color: $secondColor;
     color: $primaryColor;

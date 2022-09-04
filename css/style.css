@@ -6,14 +6,23 @@ nav {
   z-index: 1030;
   display: flex;
   background-color: #1F2D42;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 50px;
 }
 nav ul {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+nav ul :first-child {
+  margin-top: 20px;
 }
 nav ul li {
   cursor: pointer;
   all: unset;
+  margin-left: 50px;
 }
 nav ul li a {
   all: unset;
@@ -23,6 +32,35 @@ nav img {
   height: 20px;
   width: 30px;
   margin-right: 10px;
+}
+
+#burgerBtn {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  background-color: #1F2D42;
+  border: none;
+}
+#burgerBtn .menu-bar {
+  background-color: #D8DDE9;
+  width: 25px;
+  height: 4px;
+  margin-bottom: 6px;
+  border-radius: 20%;
+}
+
+.burger-clicked {
+  display: block;
+}
+
+.burger-unclicked {
+  display: none;
+}
+
+#flags {
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
 body {

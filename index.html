@@ -11,15 +11,21 @@
 <body>
     <header>
         <nav>
+            <button id="burgerBtn">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </button>
             <ul>
-                <li><a href="#aboutSection" id="about"></a></li>
-                <li><a href="#skillsSection" id="skills"></a></li>
-                <li><a href="#projectSection" id="projectNav"></a></li>
-                <li><a href="#contactSection" id="contact"></a></li>
+                <li class="nav_item burger-unclicked"><a href="#aboutSection" id="about"></a></li>
+                <li class="nav_item burger-unclicked"><a href="#skillsSection" id="skills"></a></li>
+                <li class="nav_item burger-unclicked"><a href="#projectSection" id="projectNav"></a></li>
+                <li class="nav_item burger-unclicked"><a href="#contactSection" id="contact"></a></li>
             </ul>
-            
-            <img src="./img/Flag_of_France.png" onclick="setLanguage('fr')" alt="Fr" class="flag">
-            <img src="./img/Flag_of_the_United_Kingdom.png" onclick="setLanguage('en')" alt="En" class="flag">
+            <div id="flags">
+                <img src="./img/Flag_of_France.png" onclick="setLanguage('fr')" alt="Fr" class="flag">
+                <img src="./img/Flag_of_the_United_Kingdom.png" onclick="setLanguage('en')" alt="En" class="flag">
+            </div>
         </nav>
     </header>
     <main>
