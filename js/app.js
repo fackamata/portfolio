@@ -1,3 +1,5 @@
+
+// populate HTML with translation
 function setLanguage(param) {
     fetch(`../json/languages/${param}.json`, {
        headers : { 
@@ -36,7 +38,7 @@ function populateFooter(footerContent){
 setLanguage('fr');
 
 
-// burger button for navbar
+// burger button to display navbar
 const burger = document.getElementById('burgerBtn');
 const navigationItem = document.querySelectorAll(".nav_item");
 
