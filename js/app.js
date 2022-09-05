@@ -1,4 +1,5 @@
 
+
 // populate HTML with translation
 function setLanguage(param) {
     fetch(`../json/languages/${param}.json`, {
@@ -9,11 +10,20 @@ function setLanguage(param) {
     })
    .then( res => res.json())
    .then((data) => populateHtml(data));
+
+
  }
 
 function populateNavbar(navbarContent){
    for (const [navKey, navValue] of Object.entries(navbarContent)) {
       document.getElementById(navKey).innerHTML = navValue
+   }
+}
+function populateProject(projectContent){
+   for (const [proKey, proValue] of Object.entries(projectContent)) {
+      document.getElementById(proKey + '_description').innerHTML = proValue.description
+      document.getElementById(proKey + '_name').innerHTML = proValue.name
+      document.getElementById(proKey + '_link').innerHTML = proValue.link
    }
 }
 
@@ -33,6 +43,7 @@ function populateFooter(footerContent){
     populateNavbar(translate['navbar']);
     populateMain(translate["main"]);
     populateFooter(translate["footer"]);
+    populateProject(translate["project"]);
  }
 
 setLanguage('fr');

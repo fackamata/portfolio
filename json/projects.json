@@ -1,0 +1,37 @@
+{
+    "partageTonTerrain": {
+        "name": "partage ton terrain",
+        "url": "https://partagetonterrain.herokuapp.com/",
+        "tag": [
+            "Boostrap",
+            "PHP",
+            "Symfony",
+            "CRUD",
+            "CSS",
+            "HTML",
+            "JavaScript",
+            "jQuery"
+        ]
+    },
+    "hangman": {
+        "name": "hangman",
+        "url": "https://fackamata.github.io/hangman/",
+        "description-fr": "jeu du pendus",
+        "description-en": "hangman game",
+        "tag": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    "memory": {
+        "name": "memory",
+        "url": "https://fackamata.github.io/memory/",
+        "description": "jeu de mémoires",
+        "tag": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    }
+}

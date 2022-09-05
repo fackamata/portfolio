@@ -11,6 +11,13 @@
         "welcome" : "I recently graduated from WebForce3 Annemasse - 11 months training. I am all for learning new things and getting out of my comfort zone.",
         "downloadCV": "Downloag resume"            
     },
+    "project":{
+        "partageTonTerrain": {
+            "description": "advertisements website between people inclined to share their land",
+            "link" : "Visit here",
+            "name":"share your land"
+        }
+    },
     "footer":{
         "farewell":"I am actively looking for opportunities to work and continue to grow as a web developer. Get in touch and let's see what we can do together !",
         "email":"marlene.lizzi@gmail.com",
