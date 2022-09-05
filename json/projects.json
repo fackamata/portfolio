@@ -2,6 +2,7 @@
     "partageTonTerrain": {
         "name": "partage ton terrain",
         "url": "https://partagetonterrain.herokuapp.com/",
+        "image": "/Flag_of_France.png",
         "tag": [
             "Boostrap",
             "PHP",
@@ -16,8 +17,7 @@
     "hangman": {
         "name": "hangman",
         "url": "https://fackamata.github.io/hangman/",
-        "description-fr": "jeu du pendus",
-        "description-en": "hangman game",
+        "image": "/img/Flag_of_the_United_Kingdom.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -27,7 +27,7 @@
     "memory": {
         "name": "memory",
         "url": "https://fackamata.github.io/memory/",
-        "description": "jeu de mémoires",
+        "image": "https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ",
         "tag": [
             "JavaScript",
             "HTML",

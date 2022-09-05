@@ -15,7 +15,17 @@
         "partageTonTerrain": {
             "description": "advertisements website between people inclined to share their land",
             "link" : "Visit here",
-            "name":"share your land"
+            "name":"Partage ton terrain"
+        },
+        "memory": {
+            "description": "memory game",
+            "link" : "Visit here",
+            "name":"Memory"
+        },
+        "hangman": {
+            "description": "hangman game bilingual",
+            "link" : "Visit here",
+            "name":"Hangman"
         }
     },
     "footer":{

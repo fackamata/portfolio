@@ -16,7 +16,17 @@
         "partageTonTerrain": {
             "description": "site d'annonce de partage de terrain entre particuliers",
             "link" : "Visitez",
-            "name":"partage ton terrain"
+            "name":"Partage ton terrain"
+        },
+        "memory": {
+            "description": "jeu de mémoire",
+            "link" : "Visitez",
+            "name":"Memory"
+        },
+        "hangman": {
+            "description": "jeu du pendu bilingue",
+            "link" : "Visitez",
+            "name":"Le Pendu"
         }
     },
     "footer":{

@@ -11,6 +11,7 @@ const projects = document.getElementById('projectSection');
         projectsArray.push(
             {
                 html : `<div id="${key}" class="card-project">
+                            <img src="${value.image}" alt="${key}">
                             <h3 id="${key}_name"></h3>
                             <p id="${key}_description"></p>
                             <button><a id="${key}_link" href="${value.url}"></a></button>
