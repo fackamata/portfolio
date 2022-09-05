@@ -61,6 +61,7 @@ nav img {
   position: absolute;
   right: 10px;
   top: 15px;
+  filter: grayscale(30%);
 }
 
 body {
@@ -80,12 +81,6 @@ section {
 footer {
   padding-top: 10vh;
   height: 100vh;
-}
-
-#skillsSection {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 150px);
-  grid-gap: 10px;
 }
 
 img {
@@ -111,4 +106,41 @@ img {
   padding-bottom: 10px;
   border-radius: 50%;
   transform: rotate(-90deg);
+}
+
+#skillsSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.card-skill {
+  width: 150px;
+  height: 150px;
+  background-color: #1F2D42;
+  color: #D8DDE9;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fa, .fab {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 770px) {
+  #skillsSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

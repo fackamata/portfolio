@@ -1,14 +1,15 @@
 {
-    "laravel": "<i class='fab fa-laravel'></i>",
-    "php": "<i class='fab fa-php'></i>",
-    "linux": "<i class='fab fa-linux'></i>",
-    "javascript": "<i class='fab fa-js'></i>",
-    "jquery": "<i class='fa fa-dollar-sign'></i>",
-    "git": "<i class='fab fa-git'></i>",
-    "mysql": "<i class='fa fa-database'></i>",
-    "github": "<i class='fab fa-github'></i>",
-    "python": "<i class='fab fa-python'></i>",
-    "symfony": "<i class='fab fa-symfony'></i>",
-    "html": "<i class='fab fa-html5'></i>",
-    "jekyll": "<i class='fa fa-vial'></i>"
+    "PHP": "<i class='fab fa-php fa-2x'></i>",
+    "Symfony": "<i class='fab fa-symfony fa-2x'></i>",
+    "Linux": "<i class='fab fa-linux fa-2x'></i>",
+    "HTML": "<i class='fab fa-html5 fa-2x'></i>",
+    "CSS": "<i class='fab fa-css3-alt fa-2x'></i>",
+    "MySQL": "<i class='fa fa-database fa-2x'></i>",
+    "javaScript": "<i class='fab fa-js fa-2x'></i>",
+    "jQuery": "<i class='fa fa-dollar-sign fa-2x'></i>",
+    "Git": "<i class='fab fa-git fa-2x'></i>",
+    "Github": "<i class='fab fa-github fa-2x'></i>",
+    "Laravel": "<i class='fab fa-laravel fa-2x'></i>",
+    "Python": "<i class='fab fa-python fa-2x'></i>",
+    "Jekyll": "<i class='fa fa-vial fa-2x'></i>"
 }

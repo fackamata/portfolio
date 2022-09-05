@@ -5,21 +5,18 @@ const skills = document.getElementById('skillsSection');
       headers: { Accept: 'application/json' },
     });
     const json = await res.json();
-    let skillArray = []
+    let skillsArray = []
     Object.entries(json).forEach(([key, value]) => {
-        skillArray.push(
+        skillsArray.push(
             {
-                html : `<div id=${key} class="skill">
-                            <div>${value}</div>
+                html : `<div class="card-skill">
+                            ${value}
                             <p>${key}</p>
                         </div>`
             }
-        )
-        
-    
+        )    
     });
-    skillArray.forEach(function(skill){
-        // console.log(skill.html)
+    skillsArray.forEach(function(skill){
         skills.innerHTML += skill.html
     })
-  })();
+})();
