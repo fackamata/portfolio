@@ -15,7 +15,10 @@ const projects = document.getElementById('projectSection');
                             <div class="cardProjectContent">
                                 <h3 id="${key}_name"></h3>
                                 <p id="${key}_description"></p>
-                                <button><a id="${key}_link" href="${value.url}"><i class="fa-brands fa-github"></i></a></button>
+                                <div class="link">
+                                    <button><a id="${key}_link" href="${value.github}"><img class="icon" src="./img/GitHub-Mark.png" alt="github"></a></button>
+                                    <button><a id="${key}_link" href="${value.url}"><img class="icon" src="./img/web.png" alt="github"></a></button>
+                                </div>
                             </div>
                         </div>`
             }

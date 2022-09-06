@@ -91,10 +91,11 @@ body{
 section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 10vh;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 50px;
 }
 
 section:nth-child(2n) {
@@ -142,11 +143,6 @@ footer{
 
 
 // skills
-// #skillsSection{
-//     display: grid;
-//     grid-template-columns: repeat(auto-fill, 150px);
-//     grid-gap: 10px;
-// }
 #skillsSection{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -177,21 +173,26 @@ footer{
     font-weight: 900;
 } 
 
+// project 
 #projectSection{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 20px;
     justify-items: center;
 }
 
 .cardProject{
     width: 340px;
+    // margin-bottom: 20px;
     height: 100%;
     background-color: $backgroundColotr;
     display: flex;
     flex-flow: column;
     img{
         width: 340px;
+    }
+    .icon{
+        max-width: 20px;
     }
 }
 

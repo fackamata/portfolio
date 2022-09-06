@@ -2,6 +2,7 @@
     "partageTonTerrain": {
         "name": "partage ton terrain",
         "url": "https://partagetonterrain.herokuapp.com/",
+        "github": "https://github.com/fackamata/app",
         "image": "/img/terrain.png",
         "tag": [
             "Boostrap",
@@ -14,12 +15,14 @@
             "jQuery"
         ]
     },
-    "hangman": {
-        "name": "hangman",
-        "url": "https://fackamata.github.io/hangman/",
-        "image": "/img/hangman.png",
+    "recipe": {
+        "name": "recipe",
+        "url": "https://fackamata.github.io/recipes/",
+        "github": "https://github.com/fackamata/recipes",
+        "image": "/img/recipe.png",
         "tag": [
             "JavaScript",
+            "Jekyll",
             "HTML",
             "CSS"
         ]
@@ -27,7 +30,19 @@
     "memory": {
         "name": "memory",
         "url": "https://fackamata.github.io/memory/",
+        "github": "https://github.com/fackamata/memory",
         "image": "/img/memory.png",
+        "tag": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    "hangman": {
+        "name": "hangman",
+        "url": "https://fackamata.github.io/hangman/",
+        "github": "https://github.com/fackamata/hangman",
+        "image": "/img/hangman.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -37,6 +52,7 @@
     "tic-tac-toe": {
         "name": "tic-tac-toe",
         "url": "https://fackamata.github.io/tic-tac-toe/",
+        "github": "https://github.com/fackamata/tic-tac-toe",
         "image": "/img/tic.png",
         "tag": [
             "JavaScript",
