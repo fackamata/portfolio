@@ -12,6 +12,16 @@ $backgroudDark: #2F415C;
     color:$fontColor;
 }
 
+body{
+    background-color: $secondColor;
+    color: $primaryColor;
+}
+
+h2{
+    font-size: 30px;
+    // margin-bottom: 30px;
+}
+
 // navbar
 nav{
     position: fixed;
@@ -29,7 +39,6 @@ nav{
         margin-top: 30px;
         :first-child{
             margin-top: 20px;
-
         }
         li{
             cursor: pointer;
@@ -42,7 +51,6 @@ nav{
             }
         }
     }
-
     img{
         height: 20px;
         width: 30px;
@@ -83,12 +91,8 @@ display: none;
 }
 
 // main
-body{
-    background-color: $secondColor;
-    color: $primaryColor;
-}
 
-section{
+section, footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -105,13 +109,16 @@ background-color: $backgroudDark;
 section:nth-child(2n+1) {
 background-color: $backgroudLight;
 }
-footer{
-    background-color: $backgroudDark;    
-}
 
 footer{
+    background-color: $backgroudDark;    
     padding-top: 10vh;
     height: 100vh;
+    #webLink{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
 }
 
 
@@ -147,7 +154,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    justify-items: center;
+    // justify-items: center;
 }
 
 
@@ -183,21 +190,41 @@ footer{
 
 .cardProject{
     width: 340px;
-    // margin-bottom: 20px;
-    height: 100%;
+    height: 400px;
+    margin: 20px;
     background-color: $backgroundColotr;
     display: flex;
     flex-flow: column;
     img{
         width: 340px;
+    }   
+}
+
+.cardProjectContent{
+    text-align: center;
+    h3{
+        margin: 10px;
+        font-size: 20px;
     }
-    .icon{
-        max-width: 20px;
+    p{
+        margin: 20px;
+    }
+    .link{
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
+.icon{
+    max-width: 20px;
+}
+
+
 // 400 770 1000 
 @media only screen and (min-width: 770px) and (max-width: 1000px) {
+	#aboutSection{
+        flex-direction: row;
+    }
 	#skillsSection{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -207,10 +234,24 @@ footer{
 }
 
 @media screen and (min-width: 1000px){
+    #aboutSection{
+        flex-direction: row;
+        justify-content: center;
+        #info{
+            margin-left: 50px;
+            max-width: 60vh;
+        }
+    }
     #skillsSection{
-        grid-template-columns: repeat(4, 1fr);
+        // grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #projectSection{
-        grid-template-columns: repeat(3, 1fr);
+        // grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
