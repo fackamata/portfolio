@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #A4B1CD;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -12,9 +18,8 @@ nav {
   min-height: 50px;
 }
 nav ul {
-  display: flex;
-  flex-direction: column;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 nav ul :first-child {
   margin-top: 20px;
@@ -26,6 +31,7 @@ nav ul li {
 }
 nav ul li a {
   all: unset;
+  cursor: pointer;
   color: #D8DDE9;
 }
 nav img {
@@ -50,7 +56,8 @@ nav img {
 }
 
 .burger-clicked {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .burger-unclicked {
@@ -78,12 +85,24 @@ section {
   height: 100vh;
 }
 
+section:nth-child(2n) {
+  background-color: #2F415C;
+}
+
+section:nth-child(2n+1) {
+  background-color: #293B57;
+}
+
+footer {
+  background-color: #2F415C;
+}
+
 footer {
   padding-top: 10vh;
   height: 100vh;
 }
 
-img {
+.imgAbout {
   max-width: 300px;
   max-height: 300px;
 }
@@ -137,10 +156,37 @@ img {
   font-weight: 900;
 }
 
-@media screen and (min-width: 770px) {
+#projectSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.cardProject {
+  width: 340px;
+  height: 100%;
+  background-color: #1F2D42;
+  display: flex;
+  flex-flow: column;
+}
+.cardProject img {
+  width: 340px;
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
   #skillsSection {
-    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #projectSection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1000px) {
+  #skillsSection {
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
+  }
+  #projectSection {
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=style.css.map */

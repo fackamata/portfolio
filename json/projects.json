@@ -2,7 +2,7 @@
     "partageTonTerrain": {
         "name": "partage ton terrain",
         "url": "https://partagetonterrain.herokuapp.com/",
-        "image": "/Flag_of_France.png",
+        "image": "/img/terrain.png",
         "tag": [
             "Boostrap",
             "PHP",
@@ -17,7 +17,7 @@
     "hangman": {
         "name": "hangman",
         "url": "https://fackamata.github.io/hangman/",
-        "image": "/img/Flag_of_the_United_Kingdom.png",
+        "image": "/img/hangman.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -27,7 +27,17 @@
     "memory": {
         "name": "memory",
         "url": "https://fackamata.github.io/memory/",
-        "image": "https://i.picsum.photos/id/1/5616/3744.jpg?hmac=kKHwwU8s46oNettHKwJ24qOlIAsWN9d2TtsXDoCWWsQ",
+        "image": "/img/memory.png",
+        "tag": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    "tic-tac-toe": {
+        "name": "tic-tac-toe",
+        "url": "https://fackamata.github.io/tic-tac-toe/",
+        "image": "/img/tic.png",
         "tag": [
             "JavaScript",
             "HTML",

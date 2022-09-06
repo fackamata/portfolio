@@ -19,11 +19,12 @@ function populateNavbar(navbarContent){
       document.getElementById(navKey).innerHTML = navValue
    }
 }
+
 function populateProject(projectContent){
    for (const [proKey, proValue] of Object.entries(projectContent)) {
       document.getElementById(proKey + '_description').innerHTML = proValue.description
       document.getElementById(proKey + '_name').innerHTML = proValue.name
-      document.getElementById(proKey + '_link').innerHTML = proValue.link
+      // document.getElementById(proKey + '_link').innerHTML = proValue.link
    }
 }
 
@@ -50,13 +51,12 @@ setLanguage('fr');
 
 
 // burger button to display navbar
+
 const burger = document.getElementById('burgerBtn');
 const navigationItem = document.querySelectorAll(".nav_item");
 
-burger.addEventListener('click', ()=>{
-    navigationItem.forEach(element => {
-        console.log('clicker')
-        element.classList.toggle("burger-clicked");
-        element.classList.toggle("burger-unclicked");
-    });
-});
+function displayNavbar(){
+   document.getElementById('navList').classList.toggle('burger-clicked')
+   document.getElementById('navList').classList.toggle('burger-unclicked')
+   console.log('clicker');
+}

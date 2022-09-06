@@ -10,6 +10,5 @@
     "Git": "<i class='fab fa-git fa-2x'></i>",
     "Github": "<i class='fab fa-github fa-2x'></i>",
     "Laravel": "<i class='fab fa-laravel fa-2x'></i>",
-    "Python": "<i class='fab fa-python fa-2x'></i>",
-    "Jekyll": "<i class='fa fa-vial fa-2x'></i>"
+    "Python": "<i class='fab fa-python fa-2x'></i>"
 }

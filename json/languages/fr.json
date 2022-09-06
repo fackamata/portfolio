@@ -14,19 +14,24 @@
     },
     "project":{
         "partageTonTerrain": {
-            "description": "site d'annonce de partage de terrain entre particuliers",
+            "description": "Site d'annonce de partage de terrain entre particuliers",
             "link" : "Visitez",
             "name":"Partage ton terrain"
         },
         "memory": {
-            "description": "jeu de mémoire",
+            "description": "Jeu de mémoire",
             "link" : "Visitez",
             "name":"Memory"
         },
         "hangman": {
-            "description": "jeu du pendu bilingue",
+            "description": "Jeu du pendu bilingue",
             "link" : "Visitez",
             "name":"Le Pendu"
+        },
+        "tic-tac-toe": {
+            "description": "Jeu du morpion",
+            "link" : "Visit here",
+            "name":"Tic tac toe"
         }
     },
     "footer":{

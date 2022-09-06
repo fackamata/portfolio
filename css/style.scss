@@ -1,7 +1,16 @@
 
 $primaryColor :#D8DDE9;
+$fontColor: #A4B1CD;
 $secondColor: #2b3b53;
 $backgroundColotr :  #1F2D42;
+$backgroudLight: #293B57;
+$backgroudDark: #2F415C;
+
+*{
+    margin: 0;
+    padding: 0;
+    color:$fontColor;
+}
 
 // navbar
 nav{
@@ -16,9 +25,8 @@ nav{
     height: fit-content;
     min-height: 50px;
     ul{
-        display: flex;
-        flex-direction: column;
         margin-bottom: 20px;
+        margin-top: 30px;
         :first-child{
             margin-top: 20px;
 
@@ -29,6 +37,7 @@ nav{
             margin-left: 50px;
             a{
                 all: unset;
+                cursor: pointer;
                 color: $primaryColor;
             }
         }
@@ -41,7 +50,7 @@ nav{
     }
 }
 
-
+        // burger
 #burgerBtn{
     position: absolute;
     left: 20px;
@@ -56,14 +65,16 @@ nav{
       border-radius: 20%;
     }
   }
-  
+
 .burger-clicked{
-display: block;
+
+    display: flex;
+    flex-direction: column;
 }
 .burger-unclicked{
 display: none;
 }
-  
+        // flag
 #flags{
     position: absolute;
     right: 10px;
@@ -86,13 +97,24 @@ section{
     height: 100vh;
 }
 
+section:nth-child(2n) {
+background-color: $backgroudDark;
+}
+
+section:nth-child(2n+1) {
+background-color: $backgroudLight;
+}
+footer{
+    background-color: $backgroudDark;    
+}
+
 footer{
     padding-top: 10vh;
     height: 100vh;
 }
 
 
-img{
+.imgAbout{
     max-width: 300px;
     max-height: 300px;
 }
@@ -155,13 +177,39 @@ img{
     font-weight: 900;
 } 
 
-// 400 770 1000 
+#projectSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
 
-@media screen and (min-width: 770px){
+.cardProject{
+    width: 340px;
+    height: 100%;
+    background-color: $backgroundColotr;
+    display: flex;
+    flex-flow: column;
+    img{
+        width: 340px;
+    }
+}
+
+// 400 770 1000 
+@media only screen and (min-width: 770px) and (max-width: 1000px) {
+	#skillsSection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #projectSection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px){
     #skillsSection{
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        // grid-gap: 20px;
-        justify-items: center;
+    }
+    #projectSection{
+        grid-template-columns: repeat(3, 1fr);
     }
 }

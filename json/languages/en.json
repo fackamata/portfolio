@@ -26,6 +26,11 @@
             "description": "hangman game bilingual",
             "link" : "Visit here",
             "name":"Hangman"
+        },
+        "tic-tac-toe": {
+            "description": "Tic tac toe game bilingual",
+            "link" : "Visit here",
+            "name":"Tic tac toe"
         }
     },
     "footer":{

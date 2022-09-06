@@ -11,16 +11,16 @@
 <body>
     <header>
         <nav>
-            <button id="burgerBtn">
+            <button id="burgerBtn" onclick="displayNavbar()">
                 <div class="menu-bar"></div>
                 <div class="menu-bar"></div>
                 <div class="menu-bar"></div>
               </button>
-            <ul>
-                <li class="nav_item burger-unclicked"><a href="#aboutSection" id="about"></a></li>
-                <li class="nav_item burger-unclicked"><a href="#skillsSection" id="skills"></a></li>
-                <li class="nav_item burger-unclicked"><a href="#projectSection" id="projectNav"></a></li>
-                <li class="nav_item burger-unclicked"><a href="#contactSection" id="contact"></a></li>
+            <ul id="navList" class="burger-unclicked">
+                <li class="nav_item"><a href="#aboutSection" id="about" onclick="displayNavbar()"></a></li>
+                <li class="nav_item"><a href="#skillsSection" id="skills" onclick="displayNavbar()"></a></li>
+                <li class="nav_item"><a href="#projectSection" id="projectNav" onclick="displayNavbar()"></a></li>
+                <li class="nav_item"><a href="#contactSection" id="contact" onclick="displayNavbar()"></a></li>
             </ul>
             <div id="flags">
                 <img src="./img/Flag_of_France.png" onclick="setLanguage('fr')" alt="Fr" class="flag">
@@ -31,7 +31,7 @@
     <main>
 
         <section id="aboutSection">
-            <img src="https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8" alt="computer image">
+            <img class="imgAbout" src="https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8" alt="computer image">
             <div id="info">
                 <h1 id="name"></h1>
                 <h3 id="title"></h3>
