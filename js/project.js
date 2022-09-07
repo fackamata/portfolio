@@ -11,16 +11,19 @@ const projects = document.getElementById('projectSection');
         projectsArray.push(
             {
                 html : `<div id="${key}" class="cardProject">
+                            <h3 id="${key}_name"></h3>
                             <img src="${value.image}" alt="${key}">
                             <div class="cardProjectContent">
-                                <h3 id="${key}_name"></h3>
                                 <p id="${key}_description"></p>
                                 <div class="link">
                                     <a href="${value.github}">
                                         <i class="fa fa-github fa-2x"></i>
                                         <p>Github</p>
                                     </a>
-                                    <a href="${value.url}"><i class="fa fa-light fa-globe fa-2x"></i></a>
+                                    <a href="${value.url}">
+                                        <i class="fa fa-light fa-globe fa-2x"></i>
+                                        <p>www</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>`

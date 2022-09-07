@@ -6,7 +6,7 @@
         "projectNav":"Projets",
         "contact":"Contact",
         "skillTitle": "Mes technos",           
-        "projectTitle": "Mes derniers projets"           
+        "projectTitle": "Derniers projets"           
     },
     "main":{
         "name" : "Marlène LIZZI",
@@ -42,9 +42,7 @@
         }
     },
     "footer":{
-        "farewell":"Je recherche activement des opportunités de travailler et de continuer à progresser en tant que développeuse web. Contactez-moi et voyons ce que nous pouvons réaliser ensemble !",
-        "email":"marlene.lizzi@gmail.com",
-        "number":"+33 695 76 16 84",
+        "farewell":"Je recherche activement des opportunités de travailler et de continuer à progresser en tant que développeuse web.",
         "findMe": "Retrouvez moi sur ..."
     }
 }
