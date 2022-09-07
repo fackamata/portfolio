@@ -12,32 +12,31 @@
         "name" : "Marlène LIZZI",
         "welcome" : "J'ai récemment achevé ma formation WebForce3 à Annemasse. J'adore apprendre au quotidien et sortir de ma zone de comfort.",
         "title" : "Développeuse web",
-        "downloadCV": "Mon CV"        
+        "downloadCV": "<a href='/img/CV.pdf' download>Mon CV</a>"        
     },
     "project":{
+        "portfolio": {
+            "description": "Finalement mon portfolio comme vous pouvez le constatez !",
+            "name":"Portfolio"
+        },
         "partageTonTerrain": {
             "description": "Site d'annonce de partage de terrain entre particuliers",
-            "link" : "Visitez",
             "name":"Partage ton terrain"
         },
         "recipe": {
             "description": "Site pour regrouper les recettes de cuisines familiales",
-            "link" : "Visit here",
             "name":"Recettes"
         },
         "memory": {
             "description": "Jeu de mémoire, avec 3 niveaux de difficultées",
-            "link" : "Visitez",
             "name":"Memory"
         },
         "hangman": {
             "description": "Jeu du pendu bilingue Français Anglais",
-            "link" : "Visitez",
             "name":"Le Pendu"
         },
         "tic-tac-toe": {
             "description": "Jeu du morpion",
-            "link" : "Visit here",
             "name":"Tic tac toe"
         }
     },

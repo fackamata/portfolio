@@ -12,7 +12,9 @@ const projects = document.getElementById('projectSection');
             {
                 html : `<div id="${key}" class="cardProject">
                             <h3 id="${key}_name"></h3>
-                            <img src="${value.image}" alt="${key}">
+                            <a href="${value.url}">
+                                <img src="${value.image}" alt="${key}">
+                            </a>
                             <div class="cardProjectContent">
                                 <p id="${key}_description"></p>
                                 <div class="link">
