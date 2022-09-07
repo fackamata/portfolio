@@ -16,12 +16,17 @@ const projects = document.getElementById('projectSection');
                                 <h3 id="${key}_name"></h3>
                                 <p id="${key}_description"></p>
                                 <div class="link">
-                                    <button><a id="${key}_link" href="${value.github}"><img class="icon" src="./img/GitHub-Mark.png" alt="github"></a></button>
-                                    <button><a id="${key}_link" href="${value.url}"><img class="icon" src="./img/web.png" alt="github"></a></button>
+                                    <a href="${value.github}">
+                                        <i class="fa fa-github fa-2x"></i>
+                                        <p>Github</p>
+                                    </a>
+                                    <a href="${value.url}"><i class="fa fa-light fa-globe fa-2x"></i></a>
                                 </div>
                             </div>
                         </div>`
             }
+            // <p><a id="${key}_link" href="${value.github}"><img class="icon" src="./img/GitHub-Mark.png" alt="github"></a></p>
+            // <p><a id="${key}_link" href="${value.url}"><img class="icon" src="./img/web-icon.webp" alt="github"></a></p>
         )    
     });
     projectsArray.forEach(function(project){

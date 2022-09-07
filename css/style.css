@@ -1,16 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-  color: #A4B1CD;
 }
 
 body {
-  background-color: #2b3b53;
-  color: #D8DDE9;
+  color: #293B57;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  background-color: #293B57;
+  color: #A4B1CD;
+  border-radius: 5px;
 }
 
 nav {
@@ -18,7 +23,7 @@ nav {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 30;
   display: flex;
   background-color: #1F2D42;
   height: -webkit-fit-content;
@@ -41,7 +46,7 @@ nav ul li {
 nav ul li a {
   all: unset;
   cursor: pointer;
-  color: #D8DDE9;
+  color: #A4B1CD;
 }
 nav img {
   height: 20px;
@@ -57,7 +62,7 @@ nav img {
   border: none;
 }
 #burgerBtn .menu-bar {
-  background-color: #D8DDE9;
+  background-color: #A4B1CD;
   width: 25px;
   height: 4px;
   margin-bottom: 6px;
@@ -86,32 +91,45 @@ section, footer {
   justify-content: space-around;
   align-items: center;
   padding-top: 10vh;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 50px;
 }
 
 section:nth-child(2n) {
-  background-color: #2F415C;
-}
-
-section:nth-child(2n+1) {
   background-color: #293B57;
 }
 
+section:nth-child(2n+1) {
+  background-color: #A4B1CD;
+  color: #293B57;
+}
+
+#aboutSection #info {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#aboutSection .imgAbout {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 footer {
-  background-color: #2F415C;
-  padding-top: 10vh;
-  height: 100vh;
+  background-color: #293B57;
+  color: #A4B1CD;
+  justify-content: center;
+  align-content: center;
+}
+footer i {
+  color: #A4B1CD;
 }
 footer #webLink {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
-}
-
-.imgAbout {
-  max-width: 300px;
-  max-height: 300px;
 }
 
 #topBtn {
@@ -123,8 +141,8 @@ footer #webLink {
   font-size: 30px;
   border: none;
   outline: none;
-  background-color: #D8DDE9;
-  color: #2b3b53;
+  background-color: #A4B1CD;
+  color: #1F2D42;
   font-weight: bold;
   cursor: pointer;
   height: 40px;
@@ -132,6 +150,11 @@ footer #webLink {
   padding-bottom: 10px;
   border-radius: 50%;
   transform: rotate(-90deg);
+}
+
+#skillTitle {
+  color: #A4B1CD;
+  margin: 20px 0;
 }
 
 #skillsSection {
@@ -143,8 +166,8 @@ footer #webLink {
 .card-skill {
   width: 150px;
   height: 150px;
-  background-color: #1F2D42;
-  color: #D8DDE9;
+  background-color: #A4B1CD;
+  color: #293B57;
   font-size: 20px;
   border-radius: 10px;
   text-align: center;
@@ -160,22 +183,24 @@ footer #webLink {
   text-rendering: auto;
   line-height: 1;
   font-weight: 900;
+  margin-bottom: 30px;
 }
 
 #projectSection {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  justify-items: center;
 }
 
 .cardProject {
   width: 340px;
   height: 400px;
-  margin: 20px;
-  background-color: #1F2D42;
+  margin-top: 50px;
   display: flex;
   flex-flow: column;
+}
+.cardProject i {
+  color: #1F2D42;
 }
 .cardProject img {
   width: 340px;
@@ -197,7 +222,7 @@ footer #webLink {
 }
 
 .icon {
-  max-width: 20px;
+  max-width: 30px;
 }
 
 @media only screen and (min-width: 770px) and (max-width: 1000px) {

@@ -5,14 +5,14 @@
         "skills":"Compétences",
         "projectNav":"Projets",
         "contact":"Contact",
-        "skillTitle": "Ce que je peux faire",           
-        "projectTitle": "Mes projets récent"           
+        "skillTitle": "Mes technos",           
+        "projectTitle": "Mes derniers projets"           
     },
     "main":{
         "name" : "Marlène LIZZI",
         "welcome" : "J'ai récemment achevé ma formation WebForce3 à Annemasse. J'adore apprendre au quotidien et sortir de ma zone de comfort.",
         "title" : "Développeuse web",
-        "downloadCV": "télécharger mon CV"        
+        "downloadCV": "Mon CV"        
     },
     "project":{
         "partageTonTerrain": {
@@ -21,9 +21,9 @@
             "name":"Partage ton terrain"
         },
         "recipe": {
-            "description": "site pour regrouper les recettes de cuisines familiales",
+            "description": "Site pour regrouper les recettes de cuisines familiales",
             "link" : "Visit here",
-            "name":"Recipes"
+            "name":"Recettes"
         },
         "memory": {
             "description": "Jeu de mémoire, avec 3 niveaux de difficultées",
@@ -31,7 +31,7 @@
             "name":"Memory"
         },
         "hangman": {
-            "description": "Jeu du pendu bilingue Français Englais",
+            "description": "Jeu du pendu bilingue Français Anglais",
             "link" : "Visitez",
             "name":"Le Pendu"
         },
