@@ -23,15 +23,15 @@
             "name":"Partage ton terrain"
         },
         "recipe": {
-            "description": "food recipe website build with Jekyll",
+            "description": "Food recipe website build with Jekyll",
             "name":"Recipes"
         },
         "memory": {
-            "description": "memory game, with 3 difficulty levels",
+            "description": "Memory game, with 3 difficulty levels",
             "name":"Memory"
         },
         "hangman": {
-            "description": "hangman game bilingual French English",
+            "description": "Hangman game bilingual French English",
             "name":"Hangman"
         },
         "tic-tac-toe": {
