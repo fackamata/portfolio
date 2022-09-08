@@ -1,7 +1,7 @@
 const skills = document.getElementById('skillsSection');
 
 (async () => {
-    const res = await fetch('../json/skills.json', {
+    const res = await fetch('./json/skills.json', {
       headers: { Accept: 'application/json' },
     });
     const json = await res.json();

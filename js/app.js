@@ -2,7 +2,7 @@
 
 // populate HTML with translation
 function setLanguage(param) {
-    fetch(`../json/languages/${param}.json`, {
+    fetch(`./json/languages/${param}.json`, {
        headers : { 
          'Content-Type': 'application/json',
          'Accept': 'application/json'
