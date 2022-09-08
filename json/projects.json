@@ -3,7 +3,7 @@
         "name": "porfolio",
         "url": "https://fackamata.github.io/portfolio/",
         "github": "https://github.com/fackamata/portfolio",
-        "image": "https://fackamata.github.io/portfolio/img/portfolio.png",
+        "image": "./img/portfolio.png",
         "tag": [
             "CSS",
             "HTML",
@@ -15,7 +15,7 @@
         "name": "partage ton terrain",
         "url": "https://partagetonterrain.herokuapp.com/",
         "github": "https://github.com/fackamata/app",
-        "image": "https://fackamata.github.io/portfolio/img/terrain.png",
+        "image": "./img/terrain.png",
         "tag": [
             "Boostrap",
             "PHP",
@@ -31,7 +31,7 @@
         "name": "recipe",
         "url": "https://fackamata.github.io/recipes/",
         "github": "https://github.com/fackamata/recipes",
-        "image": "https://fackamata.github.io/portfolio/img/recipe.png",
+        "image": "./img/recipe.png",
         "tag": [
             "JavaScript",
             "Jekyll",
@@ -43,7 +43,7 @@
         "name": "memory",
         "url": "https://fackamata.github.io/memory/",
         "github": "https://github.com/fackamata/memory",
-        "image": "https://fackamata.github.io/portfolio/img/memory.png",
+        "image": "./img/memory.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -54,7 +54,7 @@
         "name": "hangman",
         "url": "https://fackamata.github.io/hangman/",
         "github": "https://github.com/fackamata/hangman",
-        "image": "https://fackamata.github.io/portfolio/img/hangman.png",
+        "image": "./img/hangman.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -65,7 +65,7 @@
         "name": "tic-tac-toe",
         "url": "https://fackamata.github.io/tic-tac-toe/",
         "github": "https://github.com/fackamata/tic-tac-toe",
-        "image": "https://fackamata.github.io/portfolio/img/tic.png",
+        "image": "./img/tic.png",
         "tag": [
             "JavaScript",
             "HTML",
