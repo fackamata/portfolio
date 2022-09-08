@@ -102,7 +102,7 @@ section:nth-child(2n) {
 }
 
 section:nth-child(2n+1) {
-  background-image: url(https://fackamata.github.io/portfolio/img/backImg.png);
+  background-image: url(/portfolio/img/backImg.png);
   background-repeat: repeat;
   color: #293B57;
 }
@@ -184,7 +184,7 @@ footer #webLink {
   margin: 15px;
   width: 150px;
   height: 150px;
-  background-image: url(https://fackamata.github.io/portfolio/img/backImg.png);
+  background-image: url(/portfolio/img/backImg.png);
   color: #293B57;
   font-size: 20px;
   border-radius: 10px;
