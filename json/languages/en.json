@@ -9,7 +9,7 @@
         "name" : "Marlène LIZZI",
         "title" : "Web developer",
         "welcome" : "I recently graduated from WebForce3 Annemasse - 11 months training. I am all for learning new things and getting out of my comfort zone.",
-        "downloadCV": "<a href='/img/CV.pdf' download>Resume</a>",
+        "downloadCV": "<a href='https://fackamata.github.io/portfolio/img/CV.pdf' download>Resume</a>",
         "skillTitle": "Skills",           
         "projectTitle": "Last projects"              
     },

@@ -1,7 +1,7 @@
 const projects = document.getElementById('projectSection');
 
 (async () => {
-    const res = await fetch('../json/projects.json', {
+    const res = await fetch('https://fackamata.github.io/portfolio/json/projects.json', {
       headers: { Accept: 'application/json' },
     });
     const json = await res.json();

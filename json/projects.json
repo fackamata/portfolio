@@ -3,7 +3,7 @@
         "name": "porfolio",
         "url": "https://fackamata.github.io/portfolio/",
         "github": "https://github.com/fackamata/portfolio",
-        "image": "/img/portfolio.png",
+        "image": "https://fackamata.github.io/portfolio/img/portfolio.png",
         "tag": [
             "CSS",
             "HTML",
@@ -15,7 +15,7 @@
         "name": "partage ton terrain",
         "url": "https://partagetonterrain.herokuapp.com/",
         "github": "https://github.com/fackamata/app",
-        "image": "/img/terrain.png",
+        "image": "https://fackamata.github.io/portfolio/img/terrain.png",
         "tag": [
             "Boostrap",
             "PHP",
@@ -31,7 +31,7 @@
         "name": "recipe",
         "url": "https://fackamata.github.io/recipes/",
         "github": "https://github.com/fackamata/recipes",
-        "image": "/img/recipe.png",
+        "image": "https://fackamata.github.io/portfolio/img/recipe.png",
         "tag": [
             "JavaScript",
             "Jekyll",
@@ -43,7 +43,7 @@
         "name": "memory",
         "url": "https://fackamata.github.io/memory/",
         "github": "https://github.com/fackamata/memory",
-        "image": "/img/memory.png",
+        "image": "https://fackamata.github.io/portfolio/img/memory.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -54,7 +54,7 @@
         "name": "hangman",
         "url": "https://fackamata.github.io/hangman/",
         "github": "https://github.com/fackamata/hangman",
-        "image": "/img/hangman.png",
+        "image": "https://fackamata.github.io/portfolio/img/hangman.png",
         "tag": [
             "JavaScript",
             "HTML",
@@ -65,7 +65,7 @@
         "name": "tic-tac-toe",
         "url": "https://fackamata.github.io/tic-tac-toe/",
         "github": "https://github.com/fackamata/tic-tac-toe",
-        "image": "/img/tic.png",
+        "image": "https://fackamata.github.io/portfolio/img/tic.png",
         "tag": [
             "JavaScript",
             "HTML",
