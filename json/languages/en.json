@@ -8,7 +8,7 @@
     "main":{
         "name" : "Marlène LIZZI",
         "title" : "Web developer",
-        "welcome" : "I recently graduated from WebForce3 Annemasse - 11 months training. I am all for learning new things and getting out of my comfort zone.",
+        "welcome" : "Recently graduated as a web developer. I love to learn new things.",
         "downloadCV": "<a href='./img/CV.pdf' download>Resume</a>",
         "skillTitle": "Skills",           
         "projectTitle": "Last projects"              
@@ -23,11 +23,11 @@
             "name":"Partage ton terrain"
         },
         "recipe": {
-            "description": "Food recipe website build with Jekyll",
+            "description": "Food recipe website build with Jekyll.",
             "name":"Recipes"
         },
         "memory": {
-            "description": "Memory game, with 3 difficulty levels",
+            "description": "Memory game, 3 levels of difficulties.",
             "name":"Memory"
         },
         "hangman": {
@@ -35,7 +35,7 @@
             "name":"Hangman"
         },
         "tic-tac-toe": {
-            "description": "Tic tac toe game",
+            "description": "Tic tac toe game, 2 players",
             "name":"Tic tac toe"
         }
     },
