@@ -9,7 +9,7 @@
         "name" : "Marlène LIZZI",
         "title" : "Web developer",
         "welcome" : "Recently graduated as a web developer. I love to learn new things.",
-        "downloadCV": "<a href='./img/CV.pdf' download>Resume</a>",
+        "downloadCV": "<a href='./img/resume.pdf' download>Resume</a>",
         "skillTitle": "Skills",           
         "projectTitle": "Last projects"              
     },

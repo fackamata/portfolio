@@ -251,6 +251,7 @@ h3 {
 }
 .cardProjectContent p {
   margin: 20px;
+  min-height: 70px;
   font-size: 19px;
 }
 .cardProjectContent .link {

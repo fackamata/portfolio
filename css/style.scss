@@ -6,13 +6,10 @@ $lightDark: #293B57;
 *{
     margin: 0;
     padding: 0;
-    // color:$light;
 }
 
 body{
-    // background-color: $dark;
     color: $lightDark;
-    // background-image: url(/img/lightPattern/005-subtle-light-patterns.jpg);
 }
 
 h2{
@@ -28,6 +25,7 @@ h3{
     text-align: center;
     margin-bottom: 20px;
 }
+
 // navbar
 nav{
     position: fixed;
@@ -108,14 +106,14 @@ section, footer{
 }
 
 section:nth-child(2n) {
-background-color: $lightDark;
+    background-color: $lightDark;
 }
 
 section:nth-child(2n+1) {
     // background-color: $light;
     background-image: url(/portfolio/img/backImg.png);
     background-repeat: repeat;
-color: $lightDark;
+    color: $lightDark;
 }
 
 // about section
@@ -272,6 +270,8 @@ h3{
     }
     p{
         margin: 20px;
+
+        min-height: 70px;
         // font-weight: bold;
         font-size: 19px;
     }
