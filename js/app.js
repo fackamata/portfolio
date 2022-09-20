@@ -47,7 +47,7 @@ function populateFooter(footerContent){
     populateProject(translate["project"]);
  }
 
-setLanguage('fr');
+setLanguage('en');
 
 
 // burger button to display navbar
