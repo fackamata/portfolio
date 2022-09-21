@@ -1,16 +1,16 @@
 {
     "PHP": "<i class='fab fa-php fa-2x'></i>",
     "Symfony": "<i class='fab fa-symfony fa-2x'></i>",
+    "JavaScript": "<i class='fab fa-js fa-2x'></i>",
+    "Python": "<i class='fab fa-python fa-2x'></i>",
+    "Linux": "<i class='fab fa-linux fa-2x'></i>",
+    "Laravel": "<i class='fab fa-laravel fa-2x'></i>",
     "HTML": "<i class='fab fa-html5 fa-2x'></i>",
     "CSS": "<i class='fab fa-css3-alt fa-2x'></i>",
-    "Linux": "<i class='fab fa-linux fa-2x'></i>",
     "Bash": "<i class='fa fa-code fa-2x'></i>",
     "MySQL": "<i class='fa fa-database fa-2x'></i>",
-    "JavaScript": "<i class='fab fa-js fa-2x'></i>",
     "jQuery": "<i class='fa fa-dollar-sign fa-2x'></i>",
     "Git": "<i class='fab fa-git fa-2x'></i>",
     "Github": "<i class='fab fa-github fa-2x'></i>",
-    "Laravel": "<i class='fab fa-laravel fa-2x'></i>",
-    "Python": "<i class='fab fa-python fa-2x'></i>",
     "Jekyll": "<i class='fa fa-vial fa-2x'></i>"
 }
