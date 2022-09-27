@@ -15,10 +15,6 @@
         "downloadCV": "<a href='./img/CV.pdf' download>Mon CV</a>"        
     },
     "project":{
-        "portfolio": {
-            "description": "Finalement mon portfolio comme vous pouvez le constatez !",
-            "name":"Portfolio"
-        },
         "partageTonTerrain": {
             "description": "Site d'annonce de partage de terrain entre particuliers",
             "name":"Partage ton terrain"

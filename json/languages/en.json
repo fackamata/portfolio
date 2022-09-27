@@ -14,10 +14,6 @@
         "projectTitle": "Last projects"              
     },
     "project":{
-        "portfolio": {
-            "description": "Finally, yeah, you're on it. My portfolio",
-            "name":"Portfolio"
-        },
         "partageTonTerrain": {
             "description": "Advertisements website between people inclined to share their land",
             "name":"Partage ton terrain"
