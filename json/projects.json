@@ -1,7 +1,6 @@
 {
     "partageTonTerrain": {
         "name": "partage ton terrain",
-        "url": "https://partagetonterrain.herokuapp.com/",
         "github": "https://github.com/fackamata/app",
         "image": "./img/terrain.png",
         "tag": [
