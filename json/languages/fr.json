@@ -11,7 +11,7 @@
     "main":{
         "name" : "Marlène LIZZI",
         "welcome" : "Passionée d'informatique depuis fort longtemps. J'adore apprendre de nouvelles technos.",
-        "title" : "Développeuse web", 
+        "title" : "Administratrice Système Linux", 
         "projectTitle": "Dernier projets"  
     },
     "project":{
@@ -37,7 +37,7 @@
         }
     },
     "footer":{
-        "farewell":"Je recherche activement des opportunités de travailler et de continuer à progresser en tant que développeuse web.",
+        "farewell":"Je recherche activement des opportunités de travailler et de continuer à progresser en tant que d'administratrice Système Linux'.",
         "findMe": "Retrouvez moi sur ..."
     }
 }

@@ -7,8 +7,8 @@
     },
     "main":{
         "name" : "Marlène LIZZI",
-        "title" : "Web developer",
-        "welcome" : "Recently graduated as a web developer. I love to learn new things.",
+        "title" : "Linux Admin System",
+        "welcome" : "Recently graduated as an Linux Admin System. I love to learn new things.",
         "skillTitle": "Skills",           
         "projectTitle": "Last projects"              
     },
@@ -35,7 +35,7 @@
         }
     },
     "footer":{
-        "farewell":"I am actively looking for opportunities to work and continue to grow as a web developer.",
+        "farewell":"I am actively looking for opportunities to work and continue to grow as a Linux Admin System.",
         "findMe": "Find me on ..."
     }
 }
