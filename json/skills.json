@@ -1,14 +1,16 @@
 {
+    "Linux": "<img src='./img/icons/linux.svg' alt='linux icon'>",
+    "Bash": "<img src='./img/icons/code.svg' alt='bash icon'>",
+    "Python": "<img src='./img/icons/python.svg' alt='python icon'>",
+    "MySQL": "<img src='./img/icons/database.svg' alt='MySQL icon'>",
+    "Postgresql": "<img src='./img/icons/database.svg' alt='MySQL icon'>",
+    "Git": "<img src='./img/icons/git.svg' alt='git icon'>",
+    "Gitlab": "<img src='./img/icons/gitlab.svg' alt='git icon'>",
     "PHP": "<img src='./img/icons/php.svg' alt='php icon'>",
     "Symfony": "<img src='./img/icons/symfony.svg' alt='symfony icon'>",
-    "JavaScript": "<img src='./img/icons/square-js.svg' alt='javascript icon'>",
-    "Python": "<img src='./img/icons/python.svg' alt='python icon'>",
-    "Linux": "<img src='./img/icons/linux.svg' alt='linux icon'>",
     "HTML": "<img src='./img/icons/html5.svg' alt='html5 icon'>",
-    "Bash": "<img src='./img/icons/code.svg' alt='bash icon'>",
     "CSS": "<img src='./img/icons/css3-alt.svg' alt='css3 icon'>",
-    "MySQL": "<img src='./img/icons/database.svg' alt='MySQL icon'>",
+    "JavaScript": "<img src='./img/icons/square-js.svg' alt='javascript icon'>",
     "jQuery": "<img src='./img/icons/dollar-sign.svg' alt='jQuery icon'>",
-    "Git": "<img src='./img/icons/git.svg' alt='git icon'>",
     "Jekyll": "<img src='./img/icons/vial.svg' alt='jekyll icon'>"
 }

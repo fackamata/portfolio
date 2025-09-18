@@ -1,6 +1,7 @@
 {
     "partageTonTerrain": {
         "name": "partage ton terrain",
+        "url": "https://github.com/fackamata/app",
         "github": "https://github.com/fackamata/app",
         "image": "./img/terrain.png",
         "tag": [
